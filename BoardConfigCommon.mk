@@ -20,7 +20,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/htc/msm8660-common/include
 TARGET_NO_BOOTLOADER := true
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/htc/pyramid/
+#TARGET_KERNEL_SOURCE := kernel/htc/pyramid/
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8660
@@ -115,10 +115,10 @@ TARGET_FORCE_CPU_UPLOAD := true
 BOARD_HARDWARE_CLASS := device/htc/msm8660-common/cmhw/
 
 # SELinux
-BOARD_SEPOLICY_DIRS += \
+#BOARD_SEPOLICY_DIRS += \
     device/htc/msm8660-common/sepolicy
 
-BOARD_SEPOLICY_UNION += \
+#BOARD_SEPOLICY_UNION += \
     app.te \
     bluetooth.te \
     device.te \
